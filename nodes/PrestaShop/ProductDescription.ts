@@ -74,6 +74,22 @@ export const productFields: INodeProperties[] = [
 			},
 		},
 	},
+	{
+		displayName: 'Language Name or ID',
+		name: 'languageId',
+		type: 'options',
+		description: 'Choose from the list, or specify an ID using an <a href="https://docs.n8n.io/code/expressions/">expression</a>. Leave empty to get product in all languages.',
+		typeOptions: {
+			loadOptionsMethod: 'getLanguages',
+		},
+		default: '',
+		displayOptions: {
+			show: {
+				resource: ['product'],
+				operation: ['get'],
+			},
+		},
+	},
 
 	/* -------------------------------------------------------------------------- */
 	/*                                   product:create			                  */
