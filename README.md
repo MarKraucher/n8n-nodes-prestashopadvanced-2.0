@@ -116,3 +116,9 @@ You need a **PrestaShop API Key** and the **base URL** of your store.
 * [n8n community nodes documentation](https://docs.n8n.io/integrations/#community-nodes)
 * [PrestaShop webservice documentation](https://devdocs.prestashop-project.org/9/webservice/)
 
+# n8n-nodes-prestashop-marek
+
+Fork of [prestaalba/n8n-nodes-prestashopadvanced](https://github.com/prestaalba/n8n-nodes-prestashopadvanced)
+
+## Changes from original:
+- Changed PATCH to PUT method for PrestaShop 1.7 compatibility
