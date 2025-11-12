@@ -11,8 +11,7 @@
   "author": "Marek",
   "contributors": [
     "prestaalba (original author)"
-  ]
-  },
+  ],
   "repository": {
     "type": "git",
     "url": "https://github.com/prestaalba/n8n-nodes-prestashopadvanced-2.0.git"
