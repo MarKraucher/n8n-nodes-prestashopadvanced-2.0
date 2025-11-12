@@ -875,11 +875,19 @@ export class Prestashop implements INodeType {
 
 					if (operation === 'get') {
 						const productId = this.getNodeParameter('productId', i) as string;
+						const languageId = this.getNodeParameter('languageId', i, '') as string;
+						
+						let qs = '';
+						if (languageId) {
+							qs = `language=${languageId}`;
+						}
 
 						responseData = await prestashopApiRequest.call(
 							this,
 							'GET',
 							`products/${productId}`,
+							{},
+							qs,
 						);
 					}
 
