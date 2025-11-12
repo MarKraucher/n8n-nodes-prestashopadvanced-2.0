@@ -681,7 +681,7 @@ export class Prestashop implements INodeType {
 
 						responseData = await prestashopApiRequest.call(
 							this,
-							'PATCH',
+							'PUT',
 							`customers/${customerId}`,
 							body
 						);
@@ -749,7 +749,7 @@ export class Prestashop implements INodeType {
 
 						responseData = await prestashopApiRequest.call(
 							this,
-							'PATCH',
+							'PUT',
 							`orders/${orderId}`,
 							body,
 						);
@@ -769,7 +769,7 @@ export class Prestashop implements INodeType {
 
 						responseData = await prestashopApiRequest.call(
 							this,
-							'PATCH',
+							'PUT',
 							`orders/${orderId}`,
 							body,
 						);
@@ -789,7 +789,7 @@ export class Prestashop implements INodeType {
 
 						responseData = await prestashopApiRequest.call(
 							this,
-							'PATCH',
+							'PUT',
 							`orders/${orderId}`,
 							body,
 						);
@@ -947,7 +947,7 @@ export class Prestashop implements INodeType {
 
 						responseData = await prestashopApiRequest.call(
 							this,
-							'PATCH',
+							'PUT',
 							`products/${productId}`,
 							body
 						);
@@ -1008,7 +1008,7 @@ export class Prestashop implements INodeType {
 
 						responseData = await prestashopApiRequest.call(
 							this,
-							'PATCH',
+							'PUT',
 							`stock_availables/${stockId}`,
 							body,
 						);
@@ -1222,7 +1222,7 @@ export class Prestashop implements INodeType {
 
 						responseData = await prestashopApiRequest.call(
 							this,
-							'PATCH',
+							'PUT',
 							`specific_prices/${specificPriceId}`,
 							body,
 						);
