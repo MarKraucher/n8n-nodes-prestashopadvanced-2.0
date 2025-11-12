@@ -1,5 +1,5 @@
 {
-  "name": "n8n-nodes-prestashopadvanced",
+  "name": "n8n-nodes-prestashopadvanced-2.0",
   "version": "1.0.0",
   "description": "n8n node for advanced interaction with PrestaShop API",
   "keywords": [
@@ -8,14 +8,14 @@
   ],
   "license": "MIT",
   "homepage": "https://n8n.io",
-  "author": {
-    "name": "PrestaAlba",
-    "email": "wilson_alba@rolige.com",
-    "url": "https://mx.linkedin.com/in/walbacal"
+  "author": "Marek",
+  "contributors": [
+    "prestaalba (original author)"
+  ]
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/prestaalba/n8n-nodes-prestashopadvanced.git"
+    "url": "https://github.com/prestaalba/n8n-nodes-prestashopadvanced-2.0.git"
   },
   "engines": {
     "node": ">=20.15"
